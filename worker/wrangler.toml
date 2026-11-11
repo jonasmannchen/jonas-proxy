@@ -1,0 +1,12 @@
+name = "jonas-proxy-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Erlaubte Domains (kommagetrennt)
+# Konfigurieren Sie hier die Domains, die über den Proxy erreichbar sein sollen.
+# Beispiel: "example.com,github.com,developer.mozilla.org"
+ALLOWED_HOSTS_ENV = ""
+
+# Für lokale Entwicklung: Verwenden Sie .dev.vars
+# wrangler dev --local
